@@ -32,6 +32,11 @@ class ViewController: UIViewController {
         countLabel.text = String(count)
         
         //数が１０になったら色を黄色にする
+        if count >= 10{
+            
+            changeTextColor()
+            
+        }
         
         
     }
@@ -47,6 +52,11 @@ class ViewController: UIViewController {
         countLabel.text = String(count)
         
         //０になったら色を白にする
+        if count <= 0{
+            
+            resetColor()
+            
+        }
         
     }
     
