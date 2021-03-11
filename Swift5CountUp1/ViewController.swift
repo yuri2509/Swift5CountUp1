@@ -50,5 +50,18 @@ class ViewController: UIViewController {
         
     }
     
+    //新しいメソッドの作成
+    func changeTextColor(){
+        
+        countLabel.textColor = .yellow
+    }
+    
+    
+    func resetColor(){
+        
+        countLabel.textColor = .white
+        
+    }
+    
 }
 
