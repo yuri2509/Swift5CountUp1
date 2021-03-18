@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        countLabel.text = "0"
+        countLabel.text = String(count)
     }
 
     
